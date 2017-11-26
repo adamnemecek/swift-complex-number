@@ -13,7 +13,6 @@ public struct Complex: Equatable, Hashable, CustomStringConvertible, Expressible
     public init() {}
     
 }
-
 extension Complex {
     
     public var real: Double { get { return x } set { x = newValue } }
